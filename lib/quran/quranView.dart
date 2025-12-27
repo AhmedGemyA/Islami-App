@@ -48,7 +48,23 @@ class Quranview extends StatelessWidget {
                         ColorPallet.primaryColor, BlendMode.srcIn)
                 ).setHorizontalPaddingOnWidget(12)
             ),
-          )
+          ),
+          SizedBox(height: 10,),
+          Align(
+              alignment: Alignment.centerLeft,
+              child: Text("Most Recently", style: Theme
+                  .of(context)
+                  .textTheme
+                  .titleMedium,)),
+          SizedBox(height: 10,),
+          ListView.separated(itemBuilder: (context, index) {
+            return Container(
+              color: ColorPallet.primaryColor,
+              child: Text("M"),
+            );
+          }, separatorBuilder: (context, index) {
+            return SizedBox(width: 10,);
+          }, itemCount: 5)
         ],
       ).setHorizontalPaddingOnWidget(20),
     );

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islamiapp/core/theme/them_manager.dart';
 import 'package:islamiapp/splash/splashView.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Islami',
+      theme: ThemManager.theme,
       debugShowCheckedModeBanner: false,
       home: Splashview(),
     );

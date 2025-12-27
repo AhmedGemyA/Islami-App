@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:islamiapp/core/gen/assets.gen.dart';
-import 'package:islamiapp/core/theme/color_pallet.dart';
 import 'package:islamiapp/hades/hadesView.dart';
 import 'package:islamiapp/quran/quranView.dart';
 import 'package:islamiapp/radio/radioView.dart';
@@ -40,12 +38,6 @@ class _LayoutviewState extends State<Layoutview> {
 
                 });
               },
-              type: BottomNavigationBarType.fixed,
-              backgroundColor: ColorPallet.primaryColor,
-              showUnselectedLabels: false,
-              selectedItemColor: Colors.white,
-              selectedLabelStyle: TextStyle(
-                  fontSize: 12, fontWeight: FontWeight.bold),
               items: [
                 BottomNavigationBarItem(
                     icon: Assets.icons.quranInActive.svg(

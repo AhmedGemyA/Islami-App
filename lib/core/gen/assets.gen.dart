@@ -95,6 +95,10 @@ class $AssetsImagesGen {
   AssetGenImage get timeViewBackground =>
       const AssetGenImage('assets/images/TimeViewBackground.png');
 
+  /// File path: assets/images/cardImage.png
+  AssetGenImage get cardImage =>
+      const AssetGenImage('assets/images/cardImage.png');
+
   /// File path: assets/images/hederLogo.png
   AssetGenImage get hederLogo =>
       const AssetGenImage('assets/images/hederLogo.png');
@@ -110,6 +114,7 @@ class $AssetsImagesGen {
     radioViewBackground,
     sebhaViewBackground,
     timeViewBackground,
+    cardImage,
     hederLogo,
     splashBackground,
   ];
