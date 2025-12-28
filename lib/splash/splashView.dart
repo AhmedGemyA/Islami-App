@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:islamiapp/layout/layoutView.dart';
 
 class Splashview extends StatefulWidget {
+  static const routeName = '/splash';
   const Splashview({super.key});
 
   @override

@@ -107,6 +107,10 @@ class $AssetsImagesGen {
   AssetGenImage get splashBackground =>
       const AssetGenImage('assets/images/splash_background.png');
 
+  /// File path: assets/images/thePorderForSoraNumber.png
+  AssetGenImage get thePorderForSoraNumber =>
+      const AssetGenImage('assets/images/thePorderForSoraNumber.png');
+
   /// List of all assets
   List<AssetGenImage> get values => [
     hadethViewBackground,
@@ -117,6 +121,7 @@ class $AssetsImagesGen {
     cardImage,
     hederLogo,
     splashBackground,
+    thePorderForSoraNumber,
   ];
 }
 

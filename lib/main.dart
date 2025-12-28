@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Islami',
       theme: ThemManager.theme,
       debugShowCheckedModeBanner: false,
-      home: Splashview(),
+      initialRoute: Splashview.routeName,
+      routes:,
     );
   }
 }

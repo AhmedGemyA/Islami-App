@@ -3,6 +3,17 @@ import 'package:islamiapp/core/theme/color_pallet.dart';
 
 abstract class ThemManager {
   static ThemeData theme = ThemeData(
+    appBarTheme: AppBarTheme(
+      centerTitle: true,
+      backgroundColor: Colors.transparent,
+      iconTheme: IconThemeData(color: ColorPallet.primaryColor),
+      titleTextStyle: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+        color: ColorPallet.primaryColor,
+        fontFamily: "Janna",
+      ),
+    ),
     textTheme: const TextTheme(
       titleMedium: TextStyle(
         fontFamily: 'Janna',
