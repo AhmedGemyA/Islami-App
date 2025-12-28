@@ -17,7 +17,6 @@ class MyApp extends StatelessWidget {
       theme: ThemManager.theme,
       debugShowCheckedModeBanner: false,
       initialRoute: Splashview.routeName,
-      routes:,
     );
   }
 }
